@@ -14,16 +14,7 @@ AI Text Editor is a modern, feature-rich text editor built with Next.js, TipTap,
 - **Responsive Design**: Optimized for all screen sizes.
 - **Customizable Toolbar**: Add images, links, and code blocks.
 
-## Tech Stack
-
-- **Framework**: [Next.js](https://nextjs.org/)
-- **Editor**: [TipTap](https://tiptap.dev/)
-- **Styling**: [TailwindCSS](https://tailwindcss.com/)
-- **Icons**: [Lucide React](https://lucide.dev/)
-- **Animations**: [Framer Motion](https://www.framer.com/motion/)
-- **AI Integration**: Google Gemini API
-
-## Installation
+## Running the Editor with Callout Node
 
 1. Clone the repository:
    ```bash
@@ -50,21 +41,29 @@ AI Text Editor is a modern, feature-rich text editor built with Next.js, TipTap,
 
 5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Usage
+6. Use the toolbar or keyboard shortcuts to add callouts and explore the editor's features.
 
-- **Editing**: Use the toolbar to format text, add links, images, or code blocks.
-- **AI Actions**: Select text and use the floating AI menu or keyboard shortcuts to apply AI-powered enhancements.
-- **Callouts**: Add callouts for specific purposes like warnings or best practices.
+## Callout Component Demonstration
 
-## Keyboard Shortcuts
+A short video demonstrating the callout component in use, including custom menus and slash commands, can be found [here](https://drive.google.com/file/d/1m4GPlWWgyb4Q7-uyNSOg83DSrFjAlI7n/view?usp=sharing). (Replace `#` with the actual video link.)
+
+## Keyboard Shortcuts for Callouts
 
 | Shortcut         | Action                     |
 |------------------|----------------------------|
-| `Alt + I`        | Open AI suggestions menu  |
 | `Alt + C`        | Add an Info Callout       |
 | `Alt + B`        | Add a Best Practice Callout |
 | `Alt + D`        | Add a Warning Callout     |
 | `Alt + E`        | Add an Error Callout      |
+
+## Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/)
+- **Editor**: [TipTap](https://tiptap.dev/)
+- **Styling**: [TailwindCSS](https://tailwindcss.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **AI Integration**: Google Gemini API
 
 ## Project Structure
 
